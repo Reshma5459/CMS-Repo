@@ -1,0 +1,54 @@
+﻿body {
+    background-color: none; /* Light blue background */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position:sticky;
+    top: 0;
+    background-color: none; /* Hot pink background */
+    text-align: center;
+    color: blanchedalmond; /* White text  */
+    font-weight:bolder;
+    font-size: 50px;
+    margin: auto;
+    padding: 20px 0; /* Increased padding for better spacing */
+   
+}
+
+footer {
+    font-size: 25px;
+    font-weight: bolder;
+    color: blanchedalmond; /*white text */
+    text-align: center;
+    background-color: none; /* Misty rose background */
+    padding: 15px 0; /* Padding for better spacing */
+    border-top: none; /* Hot pink top border */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.menu-item {
+    color: #4b0082; /* Indigo text */
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 15px;
+    background-color: #ffe4e1; /* Misty rose background */
+    width: calc(100% - 40px); /* Adjusted width to fit better */
+     /* Hot pink border */
+    display: block;
+    margin: 10px auto; /* Centered menu items */
+    text-align: center;
+    
+}
+
+.menu-item:hover {
+    background-color: #ff69b4; /* Hot pink background on hover */
+    color: #fff; /* White text on hover */
+   
+}
